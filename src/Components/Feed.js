@@ -2,7 +2,7 @@ import {Box} from '@mui/material'
 import Post from './Post'
 const Feed = () => {
   return (
-    <Box flex={4} px={2}>
+    <Box flex={4} px={1}>
      <Post/>
      <Post/>
      <Post/>
