@@ -4,7 +4,7 @@ import { AiFillSlackSquare } from "react-icons/ai"
 const Header = () => {
     return (
         <Box>
-        <AppBar position='static'>
+        <AppBar position='fixed'>
             <Toolbar sx={{display : 'flex', justifyContent:'space-between'}}>
               <Link to='/'>
                    <IconButton
